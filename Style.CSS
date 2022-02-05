@@ -1,0 +1,96 @@
+body{
+      margin: 0px;
+      padding: 0px;
+}
+nav{
+      display: flex;
+      background-color: lightblue;
+      color: darkblue;
+      font-family: Georgia;
+}
+nav ul{
+      display: flex;
+      list-style: none;
+      justify-content: end;
+      color: darkblue;
+      font-family: Georgia;
+}
+nav ul li{
+      margin: 10px;
+}
+.logo{
+      width: 50%;
+      font-family: Georgia;
+}
+.menu{
+      width: 100%;
+      font-family: Georgia;
+}
+section{
+      display: flex;
+      border: 1px solid blue;
+      width: 100%;
+      height: 80vh;
+      font-family: Georgia;
+}
+.main-body{
+      width: 70%;
+      background-color: rgb(240, 104, 104);
+      border: 1px lightblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Georgia;
+      background-image:url("small\ large\ or\ super\ big\ size\ High\ resolution.jpg");
+      background-size: cover;
+      font: 16px;
+}
+.side-items{
+      width: 30%;
+      background-color: lightgreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px lightblue;
+      font-family: Georgia;
+}
+footer{
+      display: flex;
+      justify-content: space-between;
+      background-color: lightgoldenrodyellow;
+      font-family: Georgia;
+      align-items: center;
+
+}
+footer ul{
+      display: flex;
+      list-style: none;
+}
+footer ul li{
+      margin: 10px;
+      display: flex;
+}
+footer ul li button{
+      font-family: Georgia
+}
+@media screen and (max-width: 1031px){
+      .logo{
+            width: 70%;
+            font-size: 1rem;
+      }
+}
+@media screen and (max-width: 980px){
+      .main-body{
+            font-size: 1rem;
+      }
+}
+@media screen and (max-width: 960px){
+      .main-body{
+            font-size: 16px;
+      }
+}
+@media screen and (max-width: 700px){
+      .main-body{
+            font-size: 2rem;
+      }
+}
